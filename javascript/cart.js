@@ -42,8 +42,6 @@ for (let i = 0; i < 3; i++) {
             <td>id:${cartArray[i].id}</td>
             <td>name:${cartArray[i].name}</td>
             <td>price:${cartArray[i].price}</td>
-            <td>Description:${cartArray[i].Description}</td>
-            <td>Categories:${cartArray[i].Categories}</td>
         </tr>
 </table>
 <button class="cartBtnAdd">Add</button>

@@ -132,6 +132,13 @@ footer{
         height: 100%;
         width: 100%;
     }
+
+    #logo{
+        border-radius: 50%;
+        height: 20%;
+        width: 20%;
+    }
+
     ul{
         flex-wrap: wrap;
 

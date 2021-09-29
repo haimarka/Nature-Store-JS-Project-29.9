@@ -69,7 +69,7 @@ td{
     /* border: solid 2px black; */
     height: 5vh;
     width: 60vw;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     text-align: center;
 
 
@@ -96,6 +96,14 @@ footer{
     text-align: center;
 }
 
+@media screen and (max-width:768px){
+    table{
+        width: 100%;
+        
+    }
+
+}
+
 
 @media screen and (max-width:426px){
     body{
@@ -110,9 +118,11 @@ footer{
         margin: 1%;
         padding: 5px;
     }
- 
+    tr{
+        width: 40vw;
+    }
     .cartBtnAdd{
-        margin-left: 60%;
+        margin-left: 40%;
     }
     .cartBtnDelate{
         padding: 1px;
