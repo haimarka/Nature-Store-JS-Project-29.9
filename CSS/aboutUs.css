@@ -132,13 +132,13 @@ footer{
         height: 100%;
         width: 100%;
     }
-    .navbar{
-        font-size: 80%;
+    ul{
+        flex-wrap: wrap;
+
     }
-
-    .navbar li{
-        width: 1vw;
-
+    a{
+        margin: 1%;
+        padding: 5px;
     }
 
     h1{

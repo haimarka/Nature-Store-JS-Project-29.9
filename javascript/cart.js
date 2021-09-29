@@ -73,11 +73,12 @@ console.log(cartArray);
 
 var cartBtnAdd = document.getElementsByClassName("cartBtnAdd");
 var tableRowAdd = document.getElementsByClassName("trClass");
+var click = document.getElementById("click");
 
 for (let i = 0; i < cartArray.length; i++) {
     cartBtnAdd[i].onclick = () => {
-        tableRowAdd[i].innerHTML += "";
-        cartArray.push(cartArray[i]);
+        tableRowAdd[i].innerHTML += "<h2>cent add yet</h2>";
+        
     }
 }
 console.log(cartArray);
