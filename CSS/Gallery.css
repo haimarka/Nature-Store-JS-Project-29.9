@@ -90,18 +90,18 @@ footer{
 
 @media screen and (max-width:1024px){
     body{
-        background-color:  rgb(211, 255, 144);
+        background-color:  rgb(226, 223, 223);
     }
 }
 
 @media screen and (max-width:768px){
     body{
-        background-color:  rgb(211, 255, 144);
+        background-color:  rgb(226, 223, 223);
     }
 
     #logo{
-        height: 300%;
-        width: 30%;
+        height: 15%;
+        width: 15%;
         border-radius: 50%;
         transition: 1s;
     }
@@ -115,13 +115,16 @@ footer{
 
 @media screen and (max-width:426px){
     body{
-        background-color:  rgb(211, 255, 144);
+        background-color:  rgb(226, 223, 223);
     }
 
-    ul li{
-        width: 40;
-        font-size: 60%;
-        margin: 10%;
+    ul{
+        flex-wrap: wrap;
+
+    }
+    a{
+        margin: 1%;
+        padding: 5px;
     }
 
     #logo{
@@ -133,8 +136,34 @@ footer{
 
     #divs{
         margin: 1vh;
-        height: 80vh;
+        height: 60vh;
         width: 80vw;
     }
 }
 
+@media screen and (max-width:376px){
+    body{
+        background-color: black;
+    }
+
+    ul{
+        flex-wrap: wrap;
+
+    }
+    a{
+        margin: 1%;
+        padding: 5px;
+    }
+
+    #logo{
+        height: 300%;
+        width: 30%;
+        border-radius: 50%;
+        transition: 1s;
+    }
+    #divs{
+        margin: 1vh;
+        height: 40vh;
+        width: 80vw;
+    }
+}
