@@ -5,7 +5,7 @@ for (let i = 0; i < prodactsArray.length; i++) {
         <div class="pics">
         <img src="${prodactsArray[i].imgArray[0]}" class="a">
     <img src="${prodactsArray[i].imgArray[1]}" class="b"><br>
-    </div id="objectDiv">
+    </div>
     <p class="Description">${prodactsArray[i].id}<br>
     ${prodactsArray[i].name}<br>
     ${prodactsArray[i].price}<br>
@@ -20,6 +20,10 @@ for (let i = 0; i < prodactsArray.length; i++) {
 
 
 var btn = document.getElementsByClassName("btn");
+var iconCounter = document.getElementById("iconCounter");
+
+iconCounter.innerText = cartArray.length;
+
 for (let i = 0; i < prodactsArray.length; i++) {
     if (prodactsArray[i].Categories == "cacti") {
     for (let j = 0; j < btn.length; j++) {
@@ -28,7 +32,9 @@ for (let i = 0; i < prodactsArray.length; i++) {
                    id: prodactsArray[i].id,
                    name: prodactsArray[i].name,
 
+
                 }
+                iconCounter.innerText = cartArray.length;
                 cartArray.push(newObject)
         
             }      

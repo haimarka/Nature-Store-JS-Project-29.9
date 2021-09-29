@@ -132,6 +132,7 @@ p{
     margin-bottom: 10%;
     transition: 1s;
     padding: 2%;
+    text-align: right;
     
 }
 
@@ -140,6 +141,7 @@ p:hover{
     transform: scale(110%);
     background-color: rgb(141, 138, 138);
     border-radius: 7%;
+
 }
 
 footer{

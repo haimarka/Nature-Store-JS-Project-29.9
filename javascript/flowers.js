@@ -18,17 +18,25 @@ for (let i = 0; i < prodactsArray.length; i++) {
 
 
 var btn = document.getElementsByClassName("btn");
+var iconCounter = document.getElementById("iconCounter");
+
+iconCounter.innerText = cartArray.length;
+
 for (let i = 0; i < prodactsArray.length; i++) {
+    if (prodactsArray[i].Categories == "flowers") {
     for (let j = 0; j < btn.length; j++) {
         btn[j].onclick = ()=>{
                 newObject = {
                    id: prodactsArray[i].id,
                    name: prodactsArray[i].name,
 
+
                 }
+                iconCounter.innerText = cartArray.length;
                 cartArray.push(newObject)
         
-            }   
+            }      
+            } 
     
     
     }

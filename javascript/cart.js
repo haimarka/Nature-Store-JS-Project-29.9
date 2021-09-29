@@ -33,8 +33,10 @@ var cartArray = [
     },
 ];
 
-for (let i = 0; i < 3; i++) {
-    diva1.innerHTML += `
+var diva12 = document.getElementById("diva12");
+
+for (let i = 0; i < cartArray.length; i++) {
+    diva12.innerHTML += `
     <div class="trClass">
     <table>
         <tr>

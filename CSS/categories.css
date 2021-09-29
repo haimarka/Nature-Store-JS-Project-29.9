@@ -13,6 +13,34 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.iconContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 98%;
+    position: fixed;
+    /* margin-left: 96%; */
+    font-size: 6vh;
+    
+    
+}
+
+
+#iconCounter{
+    display: flex;
+    border-radius: 50%;
+    position: fixed;
+    background-color: rgb(103, 103, 241);
+    width: 1.5%;
+    height: 3%;
+    margin-top: 0.3%;
+    margin-right: -0.5%;
+    font-size: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 #diva {
     display: flex;
     justify-content: space-evenly;
@@ -60,6 +88,7 @@ h1 {
 
 
 .Description{
+    margin-left: -2%;
     text-align: center;
     transition: 1s;
 }
@@ -97,14 +126,23 @@ a{
 
 @media screen and (max-width:1024px){
     body{
-        background-color: rgb(231, 255, 196);
+        background-color:  rgb(226, 223, 223);
     }
 
+    #iconCounter{
+        width: 2%;
+    }
+
+ 
 }
 
 @media screen and (max-width:768px){
     body{
-        background-color: rgb(231, 255, 196);
+        background-color:  rgb(226, 223, 223);
+    }
+
+    #iconCounter{
+        width: 2.5%;
     }
 
     #divs{
@@ -121,8 +159,20 @@ a{
 
 @media screen and (max-width:426px){
     body{
-        background-color: rgb(232, 232, 240);  
-      }
+        background-color:  rgb(226, 223, 223);
+    }
+
+    .iconContainer{
+        width: 93%;
+    }
+
+    #iconCounter{
+        width: 4%;
+    }
+
+ 
+
+
 
     #divs{
         padding: 3vh;
