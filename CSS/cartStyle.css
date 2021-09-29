@@ -1,0 +1,118 @@
+body{
+    background-color:  rgb(226, 223, 223);
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: x-large;    
+}
+
+
+li:hover{
+    transition: 1s;
+    transform:skew(20deg);
+    color: red;
+}
+
+#logo{
+    border-radius: 60%;
+    height: 6%;
+    width: 6%;
+}
+
+h1{
+    text-align: center;
+}
+
+h1 ,p{
+    text-align: center;
+    font-size: 10vh;
+    font-style: italic;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+    padding: 1%;
+    
+
+}
+
+tr{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    
+}
+
+th{
+    background-color: rgb(105, 104, 104);
+    border: solid 2px black;
+    height: 100%;
+    width: 100vw;
+    padding: 1%;
+
+    
+    
+}
+
+td{
+    background-color: gray;
+    /* border: solid 2px black; */
+    height: 5vh;
+    width: 60vw;
+    margin-left: 10%;
+    text-align: center;
+
+
+  
+}
+
+
+
+.cartBtnAdd{
+    background-color: rgb(20, 157, 161);
+    height: 5vh;
+    width: 10%;
+    margin-left: 40%;
+}
+
+.cartBtnDelate{
+    background-color: rgb(253, 68, 68);
+    height: 5vh;
+    width: 10%;
+    margin-left: 2%;
+}
+
+footer{
+    text-align: center;
+}
+
+
+@media screen and (max-width:426px){
+    ul{
+        font-size: 110%;
+        width: 1vw;
+        margin-left: 65%;
+    }
+    li{
+        margin: 3vw;
+    }
+    table{
+        width: 100vw;
+        margin-left: 20%;
+    }
+    .cartBtnAdd{
+
+        margin-left: 60%;
+    }
+    .cartBtnDelate{
+        padding: 1px;
+    }
+
+}
+
