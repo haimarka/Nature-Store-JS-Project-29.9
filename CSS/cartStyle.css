@@ -55,14 +55,13 @@ tr{
 
 th{
     background-color: rgb(105, 104, 104);
-    border: solid 2px black;
+    /* border: solid 2px black; */
     height: 100%;
     width: 100vw;
     padding: 1%;
-
-    
-    
 }
+
+
 
 td{
     background-color: gray;

@@ -15,7 +15,7 @@ var cartArray = [
         id: 2,
         name: "מקור התוכי  🌼",
         price: 25000,
-        Description: "ה אולם נכון ל- 2008, כולם כשלו",
+        Description: "אולם נכון ל- 2008, כולם כשלו",
         Categories: "flowers",
         imgArray: ["http://3.bp.blogspot.com/-nV_3milan_c/UVADxdrmODI/AAAAAAAABds/MRlnHIQohFI/s1600/81562090.jpg",
             "https://images.fineartamerica.com/images-medium-large-5/3-lotus-berthelotii-or-bicolored-golden-lotus-vine-j-mccombie.jpg"
@@ -25,7 +25,7 @@ var cartArray = [
         id: 16,
         name: "פרח אנפה לבן 🌼",
         price: 79900,
-        Description: "Pecteilis radiata (פרח האנפה הלבן) הביב.",
+        Description: "Pecteilis radiata (פרח האנפה הלבן) .",
         Categories: "flowers",
         imgArray: ["https://live.staticflickr.com/4085/4840851476_1c49c7d628_b.jpg",
             "https://theawesomedaily.com/wp-content/uploads/2018/05/incredible-flowers.jpg"
@@ -38,10 +38,15 @@ for (let i = 0; i < 3; i++) {
     <div class="trClass">
     <table>
         <tr>
-            <th>name of prodact</th>
-            <td>id:${cartArray[i].id}</td>
-            <td>name:${cartArray[i].name}</td>
-            <td>price:${cartArray[i].price}</td>
+            <th></th>
+            <th>id</th>
+            <th>name</th>
+            <th>price</th>
+            </tr>
+            <th>prodact</th>
+            <td>${cartArray[i].id}</td>
+            <td>${cartArray[i].name}</td>
+            <td>${cartArray[i].price}</td>
         </tr>
 </table>
 <button class="cartBtnAdd">Add</button>
@@ -54,7 +59,7 @@ let sum = 0;
 for (let i = 0; i < cartArray.length; i++) {
     sum += cartArray[i].price
 }
-para.innerHTML += `sum: ${sum}`;
+para.innerHTML += `sum: ${sum} $`;
 
 
 
